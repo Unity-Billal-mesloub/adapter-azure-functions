@@ -2,7 +2,7 @@
 
 > Adapter to run a [Probot](https://probot.github.io/) application function in [Azure Functions](https://azure.microsoft.com/services/functions/)
 
-[![Build Status](https://github.com/probot/adapter-azure-functions/workflows/Test/badge.svg)](https://github.com/probot/adapter-azure-functions/actions)
+[![Build Status](https://github.com/Unity-Billal-mesloub/adapter-azure-functions/workflows/Test/badge.svg)](https://github.com/Unity-Billal-mesloub/adapter-azure-functions/actions)
 
 ## Usage
 
@@ -82,7 +82,7 @@ For an example Probot App continuously deployed to Azure Functions, see https://
 
 ## How it works
 
-`@probot/adapter-azure-functions` exports everything that [`probot`](https://github.com/probot/probot/#readme) does plus `createAzureFunction`.
+`@probot/adapter-azure-functions` exports everything that [`probot`](https://github.com/Unity-Billal-mesloub/probot/#readme) does plus `createAzureFunction`.
 
 `createAzureFunction` slightly differs from Probot's built-in `createNodeMiddleware`, as an Azure function does receives slightly different parameters.
 
